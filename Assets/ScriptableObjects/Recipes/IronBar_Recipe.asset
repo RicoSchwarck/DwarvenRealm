@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2133c6e3f6d4b9b8ae76cbed6b6064, type: 3}
+  m_Name: IronBar_Recipe
+  m_EditorClassIdentifier: 
+  recipeId: iron_bar_basic
+  displayName: Eisenbarren schmelzen
+  inputs:
+  - item: {fileID: 11400000, guid: 1c6f2cf9ca2bc4f0586655d8ed0e83db, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 72b17095c7fcd42d49fbb05b741dcac2, type: 2}
+    amount: 1
+  outputs:
+  - item: {fileID: 11400000, guid: 17af17c82ff744268be455afe6b2eb32, type: 2}
+    amount: 1
+  productionTimeSeconds: 5

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd5ae09061ba412cb4354d2054e913b, type: 3}
+  m_Name: Wood_Item
+  m_EditorClassIdentifier: 
+  itemId: wood
+  displayName: Holz
+  category: 0
+  description: 
+  icon: {fileID: -1290855366162983238, guid: 01eec980d15604310970303298ed9785, type: 3}
+  maxStackSize: 1
+  hasDurability: 0
+  maxDurability: 100
